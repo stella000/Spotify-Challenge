@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Leckerli+One);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+body{
+	background: rgba(3, 4, 86, 0.66);
+	background-image: url("bar-medium-blue.jpg");
+	background-repeat: no-repeat;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+	color:white;
+	margin-top:.8em;
+	font-family: 'Leckerli One', cursive;
+	font-size:6em;
+	text-align: middle;
+
+}
+
+h2{
+	color:white;
+	margin-top:.3em;
+	margin-left: .15em;
+	margin-bottom: .5em;
+	font-family: 'Oswald', sans-serif;
+	font-size:4.5em;
+	text-align: middle;
+}
+
+h3{
+	font-size:1.5em;
+	color:white;
+}
+
+#searchBar{
+	width: 30em;
+	margin-right: .3em;
+	text-align: middle;
+}
+
+.help-block{
+	color:white;
+	margin-top: 1em;
+}
+
+.click{
+	color:#729CBF;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+button.btn.btn-primary {
+	background-color: #729CBF;
+    border-color: #62819B;
+}
+
+button.btn-primary:hover {
+    background:#1963A1;
+    border-color:#729CBF;
+}
+
+table.table-hover{
+	margin-top: 3em;
+	color:white;
+	background-color:rgba(3, 4, 86, 0.66);
+	position: relative;
+  	top: 50%;
+  	width:35em;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #729CBF;
+}
+
+
