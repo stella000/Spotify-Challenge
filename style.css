@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Leckerli+One);
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 body{
-	background: rgba(3, 4, 86, 0.66);
+	background: #131946;
 	background-image: url("bar-medium-blue.jpg");
 	background-repeat: no-repeat;
 	font-family: 'Fjalla One', sans-serif;
@@ -32,6 +32,19 @@ h3{
 	color:white;
 }
 
+h4{
+	color:white;
+	margin-top:1.5em;
+	margin-bottom: .5em;
+	font-family: 'Oswald', sans-serif;
+	font-size:4.5em;
+}
+
+p{
+	font-family: 'Fjalla One', sans-serif;
+	color:white;
+	font-size: 15px;
+}
 #searchBar{
 	width: 30em;
 	margin-right: .3em;
@@ -72,4 +85,9 @@ table.table-hover{
   background-color: #729CBF;
 }
 
+#bartender{
+	height: 60em;
+	width:40em;
+	margin-top:.5em;
+}
 
